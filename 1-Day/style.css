@@ -1,0 +1,10 @@
+.content {
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    font-family: "宋体";
+    font-size:120px;
+    color: red;
+    text-align: center;
+    line-height: 600px;
+}
