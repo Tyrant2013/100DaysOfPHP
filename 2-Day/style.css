@@ -1,0 +1,14 @@
+table {
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+table thead {
+    background-color: lightgray;
+}
+table td {
+    text-align: center;
+    border: 1px solid lightseagreen;
+}
