@@ -1,0 +1,222 @@
+.index-main {
+    min-height: 100%;
+    margin-bottom: -42px;
+}
+
+@media(max-width: 740px) {
+    .index-main {
+        margin-bottom: -102px;
+    }
+}
+
+.index-main-body {
+    margin: auto;
+    padding: 30px 0 102px;
+    width: 300px;
+}
+.index-header {
+    text-align: center;
+}
+.index-header .logo {
+    margin: 0 auto;
+    width: 160px;
+    height: 74px;
+    background: url(https://www.zhihu.com/static/revved/img/index/logo@2x.e4e2b466.png);
+    background-size: contain;
+}
+.hide-text {
+    font: 0 / 0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+.index-header .subtitle {
+    margin: 30px 0 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.index-tab-navs {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.index-tab-navs .navs-slider {
+    position: relative;
+    display: inline-block;
+}
+.sign-flow a {
+    color:inherit;
+}
+.sign-flow .title {
+    display: none;
+}
+
+.SignFlow {
+    color: #787878;
+    font-size: 14px;
+    background-color: white;
+}
+.SignFlow .title {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    height: 42px;
+    text-align: center;
+    line-height: 1;
+}
+.SignFlow .title h1 {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.SignFlow .title h2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+.SignFlow button {
+    padding: 0;
+    font-size: 14px;
+    color: #787878;
+    background: 0 0;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.SignFlow .blue-button {
+    display: inline-block;
+    background-color: #0077d9;
+    padding: 8px 16px;
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    cursor: pointer;
+}
+.SignFlow .blue-button:hover {
+    background-color: #0070cd;
+}
+.SignFlow .blue-button:active {
+    background-color: #0077d9;
+}
+.SignFlow .blue-button:btn-pending {
+    background-color: #A8B9c7;
+}
+.SignFlow .blue-button.full-width {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+.SignFlow .input-wrapper {
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
+.SignFlow .input-wrapper:first-child {
+    border-top: 1px solid #eee;
+}
+.SignFlow .input-wrapper input {
+    padding: 15px 8px;
+    height: 48px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+    color: #787878;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.SignFlow .input-wrapper input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 30px #fff inset;
+    -webkit-text-fill-color:#787878;
+}
+.SignFlow .input-wrapper input::-webkit-input-placeholder {
+    line-height: 18px;
+    color: #ccc;
+    -webkit-text-fill-color: #ccc;
+    opacity: 1;
+    -ms-filter: "alpha(Opacity=100)";
+}
+.SignFlow .input-wrapper input::-moz-placeholder {
+    line-height: 18px;
+    color: #ccc;
+    -webkit-text-fill-color: #ccc;
+    opacity: 1;
+    -ms-filter: "alpha(Opacity=100)";
+}
+.SignFlow .input-wrapper input:-ms-input-placeholder {
+    line-height: 18px;
+    color: #ccc;
+    -webkit-text-fill-color: #ccc;
+    opacity: 1;
+    -ms-filter: "alpha(Opacity=100)";
+}
+.SignFlow .input-wrapper input::placeholder {
+    line-height: 18px;
+    color: #ccc;
+    -webkit-text-fill-color: #ccc;
+    opacity: 1;
+    -ms-filter: "alpha(Opacity=100)";
+}
+.SignFlow .input-wrapper input::-ms-clear {
+    display: none;
+}
+.SignFlow .input-wrapper input::-ms-reveal {
+    display: none;
+}
+
+.index-tab-navs .navs-slider .navs-slider-bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0 .8em;
+    width: 2.4em;
+    height: 2px;
+    background: #0f88eb;
+    -webkit-transition: left .15s ease-in;
+    transition: left .15s ease-in;
+}
+
+.index-tab-navs .navs-slider[data-active-index="1"] .navs-slider-bar {
+    left: 4em;
+}
+
+.index-tab-navs a {
+    float: left;
+    width: 4em;
+    line-height: 35px;
+    opacity: .7;
+    -ms-filter: "alpha(Opacity=70)";
+    -webkit-transition: opacity .15s, color .15s;
+    transition: opacity .15s, color .15s;
+    text-decoration: none;
+}
+
+html.no-touchevents .index-tab-navs a:hover {
+    opacity: 1;
+    -ms-filter: "alpha(Opacity=100)";
+    text-decoration: none;
+}
+.index-tab-navs a.active {
+    opacity: 1;
+    -ms-filter: "alpha(Opacity=100)";
+    color: #0f88eb;
+}
+.sign-flow .view .signin-misc-wrapper .signin-switch-button {
+    padding: 0;
+    font-size: 14px;
+    color: #5ca5e8;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+}
+.sign-flow .view .signin-misc-wrapper .unable-login {
+    float: right;
+}
